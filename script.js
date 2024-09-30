@@ -6,14 +6,14 @@ const journeys = [
         { id: 4, x: 46.5, y: 49.3, images: ['./images/trek9.jpg', './images/trek10.jpg'] }
     ]},
     { id: 2, name: "Mahabaleshwar Trip", checkpoints: [
-        { id: 5, x: 20, y: 80, images: ['maha1.jpg', 'maha2.jpg'] },
-        { id: 6, x: 40, y: 60, images: ['maha3.jpg', 'maha4.jpg', 'maha5.jpg'] },
-        { id: 7, x: 60, y: 40, images: ['maha6.jpg', 'maha7.jpg'] }
+        { id: 5, x: 67.5, y: 87, images: ['maha1.jpg', 'maha2.jpg'] },
+        { id: 6, x: 37, y: 75, images: ['maha3.jpg', 'maha4.jpg', 'maha5.jpg'] },
+        { id: 7, x: 63.2, y: 62, images: ['maha6.jpg', 'maha7.jpg'] }
     ]},
     { id: 3, name: "Go Goa Gone", checkpoints: [
-        { id: 8, x: 30, y: 70, images: ['goa1.jpg', 'goa2.jpg', 'goa3.jpg'] },
-        { id: 9, x: 50, y: 50, images: ['goa4.jpg', 'goa5.jpg'] },
-        { id: 10, x: 70, y: 30, images: ['goa6.jpg', 'goa7.jpg', 'goa8.jpg'] }
+        { id: 8, x: 67.5, y: 87, images: ['goa1.jpg', 'goa2.jpg', 'goa3.jpg'] },
+        { id: 9, x: 37, y:75, images: ['goa4.jpg', 'goa5.jpg'] },
+        { id: 10, x: 63.2, y: 62, images: ['goa6.jpg', 'goa7.jpg', 'goa8.jpg'] }
     ]}
 ];
 
