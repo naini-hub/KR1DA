@@ -1,9 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 body {
-    background-color: #b0dbe0 ;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #FAF7F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.navbar {
-    background-color: #024047  !important;
-    
+#name{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    line-height: 80px;
+}
+.navtabs {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 0px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px 20px;
+  position: relative;
+}
+.navtab {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+.navtab:hover {
+  color: #007BFF;
+}
+.navtab.active {
+  color: #007BFF;
+  font-weight: 600;
+}
+.underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: #007BFF;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+.content {
+  display: none;
+  padding: 100px 20px 20px;
+  max-width: 800px;
+  text-align: center;
+}
+.content.active {
+  display: block;
+}
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #000;
+  transition: color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer a {
+  background: linear-gradient(145deg, #007aff, #005bb5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.footer a:hover {
+  color: linear-gradient(145deg, #007aff, #005bb5);
 }
 .navbar-nav{
     color: #ffd691;
@@ -17,17 +90,44 @@ body {
     opacity: 40%;
     color: white;
 }
+#navbar-brand{
+    color: black;
+    font-size: 25px;
+}
+#journey {
+    background: #FAF7F0;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid #FAF7F0;
+}
+#journeymap{
+    text-align: center;
+    text-wrap: normal;
+    background: #FAF7F0;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid #FAF7F0; 
+}
 #map {
     background-color: #ffffff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
     position: relative;
     overflow: hidden;
+    
 }
 #map img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
+    background: #b0dbe0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
 }
 .checkpoint {
     position: absolute;
